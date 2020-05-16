@@ -1,0 +1,281 @@
+html {
+  /* font-family: "Noto Sans JP", sans-serif; */
+  　　font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+    sans-serif;
+}
+body {
+  margin: 0px;
+  min-width: 1200px;
+}
+header {
+  height: 60px;
+  /* border-bottom: #f0f0f0 10px solid; */
+  box-shadow: 20px 10px rgba(0, 0, 0, 0.4);
+}
+main {
+  background-color: #f0f0f0;
+  margin-bottom: 100px;
+  padding-bottom: 60px;
+}
+ul,
+li {
+  list-style: none;
+}
+li {
+  margin: 0px 10px;
+  color: #707070;
+}
+li:hover {
+  color: #60c3ff;
+}
+h4:hover {
+  color: #60c3ff;
+}
+h2 {
+  color: #292828;
+  font-weight: 600;
+  font-size: 22px;
+}
+h3 {
+  font-weight: normal;
+  color: #707070;
+  font-size: 16px;
+}
+h4 {
+  font-weight: normal;
+  color: #707070;
+  font-size: 16px;
+}
+
+.chat_rg {
+  font-size: 1.6em;
+  margin-right: 15px;
+}
+.man_rg {
+  font-size: 1.6em;
+  /* /* margin: 10px; */
+  margin-right: 26px;
+}
+.main_pict {
+  height: 400px;
+
+  display: flex;
+  margin: auto 0 auto auto;
+}
+.main_tp {
+  text-align: center;
+  background-color: #053873;
+  margin: 0px;
+  display: flex;
+  position: relative;
+}
+.mituke {
+  font-size: 100px;
+  color: white;
+  margin: 0px;
+  margin-left: 170px;
+  position: absolute;
+  bottom: 45px;
+}
+.cent {
+  display: flex;
+  flex-direction: column;
+  width: 880px;
+  margin-left: 40px;
+  background-color: white;
+  box-shadow: 0 0 3px gray;
+}
+.middle {
+  display: flex;
+
+  justify-content: center;
+
+  position: relative;
+  padding-top: 60px;
+}
+.mid_left {
+  width: 280px;
+}
+.mid_left_tp {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  box-shadow: 0 0 3px gray;
+}
+.mid_left_mid {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  box-shadow: 0 0 3px gray;
+
+  margin-top: 60px;
+}
+.tp {
+  width: 100%;
+}
+.kihon {
+  padding-left: 20px;
+}
+.kihon_left {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  padding-left: 32px;
+  padding-right: 40px;
+}
+.pro_pict {
+  width: 35%;
+  background-color: #ebebeb;
+  padding-top: 40px;
+  margin-right: 40px;
+}
+.fo {
+  display: flex;
+  margin: 16px 0px;
+}
+.tit {
+  width: 35%;
+}
+.form {
+  width: 65%;
+  display: flex;
+}
+.tit_te {
+  width: 182.91px;
+}
+
+input {
+  /* border: 1px #a3a3a3 solid;
+  border-radius: 1px; */
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  padding: 8px 12px;
+}
+select {
+  height: 31px;
+  width: 88px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  background-color: white;
+}
+.busyo {
+  width: 240px;
+}
+.yaku {
+  width: 240px;
+}
+textarea {
+  border: 1px #d8d8d8 solid;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+}
+
+.fm {
+  display: flex;
+  margin-top: 48px;
+}
+.radio-wrap label {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.radio-wrap input {
+  display: none;
+}
+
+.radio-wrap input:checked + span {
+  color: #60c3ff;
+}
+.ra {
+  color: #707070;
+}
+.cent2 {
+  display: flex;
+  flex-direction: column;
+  width: 880px;
+  margin-left: 40px;
+  background-color: white;
+  box-shadow: 0 0 3px gray;
+  margin-top: 32px;
+}
+.cent3 {
+  display: flex;
+  flex-direction: column;
+  width: 880px;
+  margin-left: 40px;
+  background-color: white;
+  box-shadow: 0 0 3px gray;
+  margin-top: 32px;
+}
+.cent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 880px;
+  margin-left: 40px;
+  background-color: white;
+  box-shadow: 0 0 3px gray;
+  margin-top: 32px;
+}
+.syozoku {
+  padding-left: 52px;
+  margin-bottom: 40px;
+  /* display: flex;
+  flex-direction: column; */
+}
+.syo_fo {
+}
+.button-panel {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.button-panel .button {
+  background: #59b1eb;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+  width: 30%;
+}
+
+.button:hover {
+  background: #a0d6fa;
+}
+
+.button2 {
+  display: none;
+}
+
+.button-panel2 {
+  background: white;
+  border: #59b1eb 2px solid;
+  box-shadow: 0px 1px 3px gray;
+  color: #59b1eb;
+  cursor: pointer;
+  padding: 8px 8px;
+  border-radius: 24px;
+
+  font-size: 12px;
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+}
+
+.button-panel2:hover {
+  background: #59b1eb;
+  color: white;
+}

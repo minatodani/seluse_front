@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  /* font-family: "Noto Sans JP", sans-serif; */
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+}
+header {
+  border-bottom: #59b1eb 2px solid;
+}
+h1 {
+  font-size: 30px;
+}
+.name {
+  border-bottom: #59b1eb 5px solid;
+  margin-top: 40px;
+  font-weight: 500;
+}
+li {
+  color: #707070;
+  font-size: 22px;
+  margin-top: 42px;
+  border-bottom: #59b1eb 1px solid;
+}
+li:hover {
+  color: #60c3ff;
+}
+.name_tag {
+  background-color: #9ed9fd;
+  padding: 10px 0px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.left_menu {
+  width: 22%;
+}
+.fo {
+  display: flex;
+  margin: 56px 0px;
+}
+.tit {
+  width: 40%;
+  font-size: 20px;
+}
+.form {
+  width: 60%;
+}
+input {
+  width: 70%;
+  height: 24px;
+  /* border: 1px #a3a3a3 solid;
+  border-radius: 1px; */
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+}
+textarea {
+  width: 70%;
+  border: 1px #d8d8d8 solid;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+}
+.button-panel {
+  margin: 2em 0 0;
+  width: 100%;
+}
+
+.button-panel .button {
+  background: #59b1eb;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+  width: 30%;
+}
+.button {
+  margin-top: 60px;
+}
+.button:hover {
+  background: #a0d6fa;
+}

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="sales_profile.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div style="display: flex;">
+        <a href="/"
+          ><img
+            src="../pict/rogo_white.png"
+            alt=""
+            style="height: 55px; margin-left: 15px;"
+        /></a>
+        <ul class="tab" style="display: flex;">
+          <li class="tab1" type="none" style="color: #59b1eb;">ホーム</li>
+          <li class="tab3" type="none">お気に入り</li>
+          <li class="tab2" type="none">閲覧履歴</li>
+          <li class="tab3" type="none">約定報告</li>
+          <!-- <li class="tab3" type="none">案件ランキング</li>
+          <li class="tab3" type="none">パートナーランキング</li> -->
+        </ul>
+        <ul class="tab" style="display: flex; margin: auto 0 auto auto;">
+          <li type="none"><i class="far fa-comment-dots chat_rg"></i></li>
+          <li type="none">
+            <i class="fab fa-creative-commons-by man_rg"></i>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div style="display: flex; background-color: #59b1eb; height: 60px;">
+      <img
+        src="../pict/IMG_3066.jpeg"
+        alt=""
+        style="
+          height: 40px;
+          width: 40px;
+          object-fit: cover;
+          border-radius: 30px;
+          margin: auto 0px;
+          margin-left: 20px;
+        "
+      />
+      <p
+        style="
+          margin: auto 0px;
+          margin-left: 16px;
+          color: white;
+          font-size: 16px;
+        "
+      >
+        お名前
+      </p>
+      <p
+        style="
+          margin: auto 0px;
+          margin-left: 32px;
+          color: white;
+          font-size: 16px;
+        "
+      >
+        マイページ
+      </p>
+    </div>
+    <main>
+      <div class="middle">
+        <div class="mid_left">
+          <div class="mid_left_tp">
+            <div
+              style="
+                text-align: center;
+                padding: 32px 18px;
+                padding-bottom: 64px;
+              "
+            >
+              <img
+                src="../pict/IMG_3066.jpeg"
+                alt=""
+                style="
+                  height: 120px;
+                  width: 120px;
+                  object-fit: cover;
+                  border-radius: 60px;
+                "
+              />
+              <p>セルス太郎</p>
+              <p style="color: #707070; font-size: 8px;">
+                お勤め先を記入してください。
+              </p>
+            </div>
+          </div>
+          <div class="mid_left_mid">
+            <div style="padding: 10px 12px 0px 12px;">
+              <p style="font-size: 8px;">ここからプロフィールの編集をしよう</p>
+              <h4 style="margin-bottom: 10px; margin-top: 24px;">
+                プロフィール<span style="float: right;"
+                  ><i class="fas fa-angle-right"></i
+                ></span>
+              </h4>
+            </div>
+            <p style="border-bottom: #e4e4e4 1px solid;"></p>
+            <div style="padding: 0px 12px 0px 12px;">
+                            <p style="font-size: 8px;">約定の報告はこちらから</p>
+
+              <h4>
+                販売可能案件<span style="float: right;"
+                  ><i class="fas fa-angle-right"></i
+                ></span>
+              </h4>
+              <h4>
+                お気に入り<span style="float: right;"
+                  ><i class="fas fa-angle-right"></i
+                ></span>
+              </h4>
+            </div>
+            <p style="border-bottom: #e4e4e4 1px solid;"></p>
+            <div style="padding: 0px 12px 0px 12px;">
+              <h4>
+                メッセージ<span style="float: right;"
+                  ><i class="fas fa-angle-right"></i
+                ></span>
+              </h4>
+              <h4>
+                お知らせ<span style="float: right;"
+                  ><i class="fas fa-angle-right"></i
+                ></span>
+              </h4>
+            </div>
+            <p style="border-bottom: #e4e4e4 1px solid;"></p>
+            <div style="padding: 0px 12px 0px 12px;">
+              <h4>
+                報酬管理<span style="float: right;"
+                  ><i class="fas fa-angle-right"></i
+                ></span>
+              </h4>
+              <h4>
+                振込先口座登録<span style="float: right;"
+                  ><i class="fas fa-angle-right"></i
+                ></span>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          "
+        >
+          <div class="cent">
+            <form action="" method="post">
+              <div class="tp">
+                <p
+                  style="
+                    margin: 20px 20px 10px 20px;
+                    font-size: 22px;
+                    color: #707070;
+                  "
+                >
+                  プロフィール編集
+                </p>
+                <p style="border-bottom: #60c3ff 1px solid;"></p>
+              </div>
+              <div class="kihon">
+                <p
+                  style="
+                    margin: 32px 0px 32px 32px;
+                    font-size: 32px;
+                    font-weight: 100;
+                  "
+                >
+                  基本情報
+                </p>
+                <div class="fm">
+                  <div class="kihon_left">
+                    <div class="form1 fo">
+                      <div class="tit">名前</div>
+                      <div class="form">
+                        <input type="text" style="width: 45%;" />
+                        <div style="width: 10%;"></div>
+                        <input type="text" style="width: 45%;" />
+                      </div>
+                    </div>
+                    <p style="border-bottom: #e4e4e4 1px solid;"></p>
+                    <div class="form2 fo">
+                      <div class="tit">性別</div>
+                      <div class="radio-wrap">
+                        <label>
+                          <input type="radio" name="radio" value="radiobtn" />
+                          <span class="ra"
+                            ><i class="far fa-check-circle"></i>男性</span
+                          >
+                        </label>
+
+                        <label>
+                          <input type="radio" name="radio" value="radiobtn" />
+                          <span class="ra"
+                            ><i class="far fa-check-circle"></i>女性</span
+                          >
+                        </label>
+                        <label>
+                          <input type="radio" name="radio" value="radiobtn" />
+                          <span class="ra"
+                            ><i class="far fa-check-circle"></i>その他</span
+                          >
+                        </label>
+                      </div>
+                    </div>
+                    <p style="border-bottom: #e4e4e4 1px solid;"></p>
+                    <div class="form3 fo">
+                      <div class="tit">生年月日</div>
+                      <div class="form">
+                        <input type="number" style="width: 48px;" /><span
+                          style="
+                            padding-top: 3px;
+                            color: #707070;
+                            margin-left: 3px;
+                          "
+                          >年</span
+                        >
+                        <div style="width: 10px;"></div>
+                        <input type="number" style="width: 24px;" /><span
+                          style="
+                            padding-top: 3px;
+                            color: #707070;
+                            margin-left: 3px;
+                          "
+                          >月</span
+                        >
+                        <div style="width: 10px;"></div>
+                        <input type="number" style="width: 24px;" /><span
+                          style="
+                            padding-top: 3px;
+                            color: #707070;
+                            margin-left: 3px;
+                          "
+                          >日</span
+                        >
+                      </div>
+                    </div>
+                    <p style="border-bottom: #e4e4e4 1px solid;"></p>
+
+                    <div class="form4 fo">
+                      <div class="tit">お住まい</div>
+                      <div class="form">
+                        <!-- <input type="text" name="address" list="data1" /> -->
+                        <select name="pref_add">
+                          <option value="" selected>都道府県</option>
+                          <option value="1">北海道</option>
+                          <option value="2">青森県</option>
+                          <option value="3">岩手県</option>
+                          <option value="4">宮城県</option>
+                          <option value="5">秋田県</option>
+                          <option value="6">山形県</option>
+                          <option value="7">福島県</option>
+                          <option value="8">茨城県</option>
+                          <option value="9">栃木県</option>
+                          <option value="10">群馬県</option>
+                          <option value="11">埼玉県</option>
+                          <option value="12">千葉県</option>
+                          <option value="13">東京都</option>
+                          <option value="14">神奈川県</option>
+                          <option value="15">新潟県</option>
+                          <option value="16">富山県</option>
+                          <option value="17">石川県</option>
+                          <option value="18">福井県</option>
+                          <option value="19">山梨県</option>
+                          <option value="20">長野県</option>
+                          <option value="21">岐阜県</option>
+                          <option value="22">静岡県</option>
+                          <option value="23">愛知県</option>
+                          <option value="24">三重県</option>
+                          <option value="25">滋賀県</option>
+                          <option value="26">京都府</option>
+                          <option value="27">大阪府</option>
+                          <option value="28">兵庫県</option>
+                          <option value="29">奈良県</option>
+                          <option value="30">和歌山県</option>
+                          <option value="31">鳥取県</option>
+                          <option value="32">島根県</option>
+                          <option value="33">岡山県</option>
+                          <option value="34">広島県</option>
+                          <option value="35">山口県</option>
+                          <option value="36">徳島県</option>
+                          <option value="37">香川県</option>
+                          <option value="38">愛媛県</option>
+                          <option value="39">高知県</option>
+                          <option value="40">福岡県</option>
+                          <option value="41">佐賀県</option>
+                          <option value="42">長崎県</option>
+                          <option value="43">熊本県</option>
+                          <option value="44">大分県</option>
+                          <option value="45">宮崎県</option>
+                          <option value="46">鹿児島県</option>
+                          <option value="47">沖縄県</option>
+                        </select>
+                        <!-- <select name="example">
+                          <option value="サンプル1">サンプル1</option>
+                          <option value="サンプル2">サンプル2</option>
+                          <option value="サンプル3">サンプル3</option>
+                        </select> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pro_pict">
+                    <div style="
+                                  text-align: center;
+                                  
+                                 
+                                ">
+                    <img src="../pict/IMG_3066.jpeg" alt="" style="
+                                    height: 180px;
+                                    width: 180px;
+                                    object-fit: cover;
+                                    border-radius: 90px;
+                                  " />
+                    <div style="margin-top: 24px;"><label class="button-panel2" style="text-align: center;">
+                      プロフィール写真を変更
+                      <input type="file" class="button2" title="Sign In" ></input>
+                    </label></div>
+                  </div>
+</div>
+                </div>
+                <div style="margin-left: 32px; margin-bottom: 40px;">
+                  <p
+                    style="
+                      border-bottom: #e4e4e4 1px solid;
+                      margin-bottom: 60px;
+                    "
+                  ></p>
+
+                  <div class="form5 fo">
+                    <div class="tit_te">これまでの業務</div>
+                    <div class="form_te">
+                      <textarea name="" id="" cols="110" rows="10"></textarea>
+                    </div>
+                  </div>
+                  <p
+                    style="border-bottom: #e4e4e4 1px solid; margin: 32px 0px;"
+                  ></p>
+                  <div class="form6 fo">
+                    <div class="tit_te">自己PR</div>
+                    <div class="form_te">
+                      <textarea name="" id="" cols="110" rows="10"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="cent2">
+            <div class="syozoku">
+              <p
+                style="
+                  margin: 32px 0px 48px 0px;
+                  font-size: 32px;
+                  font-weight: 100;
+                "
+              >
+                所属
+              </p>
+              <div class="form7 fo">
+                <div class="tit_te">会社名</div>
+
+                <div class="form_te">
+                  <input type="text" style="width: 578px;" />
+                </div>
+              </div>
+                                            <p style="font-size: 8px;color: #707070;margin-left: 183px;margin-top: 0px;">フリーランスの方は「フリーランス」とご記入ください。</p>
+
+              <p
+                style="border-bottom: #e4e4e4 1px solid; margin: 32px 0px;"
+              ></p>
+              <div class="form8 fo">
+                <div class="tit_te">部署</div>
+                <div class="form_te">
+                  <!-- <input type="text" name="address" list="data1" /> -->
+                  <select name="pref_busyo" class="busyo">
+                    <option value="" selected>部署を選択してください。</option>
+                    <option value="1">会長</option>
+                    <option value="2">顧問</option>
+                    <option value="3">代表取締役</option>
+                    <option value="4">役員・取締役</option>
+                    <option value="5">社長室</option>
+                    <option value="6">秘書室</option>
+                    <option value="7">総務部</option>
+                    <option value="8">人事部</option>
+                    <option value="9">経理部</option>
+                    <option value="10">営業部</option>
+                    <option value="11">広報部</option>
+                    <option value="12">法務部</option>
+                    <option value="13">企画・マーケティング部</option>
+                    <option value="14">情報システム部</option>
+                    <option value="15">EC事業部</option>
+                    <option value="16">仕入れ部</option>
+                    <option value="17">技術部</option>
+                    <option value="18">製造部</option>
+                    <option value="19">CSR部</option>
+                    <option value="20">IR部</option>
+                    <option value="21">店舗開発部</option>
+                    <option value="22">その他</option>
+                  </select>
+                  <!-- <select name="example">
+                                                          <option value="サンプル1">サンプル1</option>
+                                                          <option value="サンプル2">サンプル2</option>
+                                                          <option value="サンプル3">サンプル3</option>
+                                                        </select> -->
+                </div>
+              </div>
+              <p
+                style="border-bottom: #e4e4e4 1px solid; margin: 32px 0px;"
+              ></p>
+
+              <div class="form9 fo">
+                <div class="tit_te">役職</div>
+                <div class="form_te">
+                  <!-- <input type="text" name="address" list="data1" /> -->
+                  <select name="pref_yaku" class="yaku">
+                    <option value="" selected>役職を選択してください。</option>
+                    <option value="1">会長</option>
+                    <option value="2">顧問</option>
+                    <option value="3">代表取締役</option>
+                    <option value="4">役員・取締役</option>
+                    <option value="5">本部長クラス</option>
+                    <option value="6">部長クラス</option>
+                    <option value="7">課長クラス</option>
+                    <option value="8">主任・係長クラス</option>
+                    <option value="9">一般社員</option>
+                    <option value="10">その他</option>
+                  </select>
+                  <!-- <select name="example">
+                                                                                      <option value="サンプル1">サンプル1</option>
+                                                                                      <option value="サンプル2">サンプル2</option>
+                                                                                      <option value="サンプル3">サンプル3</option>
+                                                                                    </select> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cent3">
+            <div class="syozoku">
+              <p
+                style="
+                  margin: 32px 0px 48px 0px;
+                  font-size: 32px;
+                  font-weight: 100;
+                "
+              >
+                連絡先
+              </p>
+              <div class="form10 fo">
+                <div class="tit_te">メールアドレス</div>
+                <div class="form_te">
+                  <input type="email" style="width: 578px;" />
+                </div>
+              </div>
+              <p
+                style="border-bottom: #e4e4e4 1px solid; margin: 32px 0px;"
+              ></p>
+              <div class="form10 fo">
+                <div class="tit_te">電話番号</div>
+                <div class="form_te">
+                  <input type="tel" style="width: 578px;" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cent4">
+              <p style="color: #707070; font-size: 12px;margin: 32px;margin-bottom: 16px;">プロフィールの内容は掲載企業に公開されます。</p>
+
+              <div class="button-panel" style="text-align: center;">
+              <input type="submit" class="button" title="Sign In" value="更新する"></input>
+             </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,465 @@
+html {
+  /* font-family: "Noto Sans JP", sans-serif; */
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+  min-width: 1200px;
+}
+body {
+  margin: 0px;
+}
+header {
+  height: 60px;
+}
+p {
+  line-height: 32px;
+}
+ul,
+li {
+  list-style: none;
+}
+li {
+  margin: 0px 10px;
+  color: #707070;
+}
+li:hover {
+  color: #60c3ff;
+}
+h2 {
+  color: #292828;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 10px 0px;
+}
+h3 {
+  line-height: 1.5;
+  color: #9da0a4;
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  /* word-wrap: break-word; */
+}
+h4 {
+  color: #394151;
+  margin: 0px;
+  font-size: 18px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.middle {
+  display: flex;
+  max-width: 1400px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.left {
+  width: 272px;
+  background-color: #f8f9fa;
+}
+input {
+  /* border: 1px #a3a3a3 solid;
+  border-radius: 1px; */
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  padding: 8px 12px;
+}
+.search_box {
+  height: 42px;
+  width: 240px;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  background-color: white;
+}
+.lef_tp {
+  padding: 16px;
+}
+.kensaku {
+  padding: 0 0 0 12px;
+  width: 100%;
+  height: 100%;
+  outline: 0;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: #000;
+  font-size: 14px;
+  box-sizing: 200px;
+}
+.search_but {
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border: unset;
+  width: 44px;
+  padding: 0px;
+}
+.left_cont1 {
+  padding: 17px;
+}
+
+.left_cont_radio {
+  margin-top: 20px;
+}
+.hoso {
+  color: #707070;
+  font-size: 12px;
+  margin: 0px;
+}
+.hoso2 {
+  color: #707070;
+  font-size: 12px;
+  margin: 0px;
+  margin-left: 8px;
+}
+main {
+  margin: 0px;
+  margin-bottom: 160px;
+}
+
+.chat_rg {
+  font-size: 1.6em;
+  margin-right: 15px;
+}
+.man_rg {
+  font-size: 1.6em;
+  /* /* margin: 10px; */
+  margin-right: 26px;
+}
+.main_pict {
+  height: 400px;
+
+  display: flex;
+  margin: auto 0 auto auto;
+}
+.main_tp {
+  text-align: center;
+  background-color: #053873;
+  margin: 0px;
+  display: flex;
+  position: relative;
+}
+.mituke {
+  font-size: 100px;
+  color: white;
+  margin: 0px;
+  margin-left: 170px;
+  position: absolute;
+  bottom: 45px;
+}
+.cont {
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  padding-top: 50px;
+  padding-bottom: 28px;
+
+  margin-bottom: 64px;
+}
+.cont_tp {
+  display: flex;
+}
+.cent {
+  width: 100%;
+}
+.cont_img {
+  width: 100%;
+  height: 228px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  /* padding: 0 24px; */
+}
+.box {
+  /* border-bottom: #707070 1px dashed; */
+  width: 100%;
+  justify-content: space-between;
+  height: 130px;
+  /* margin: 10px 0px; */
+}
+.box1 {
+  /* border-bottom: #707070 1px dashed; */
+  width: 171px;
+  justify-content: space-between;
+  height: 130px;
+  /* margin: 10px 0px; */
+}
+.box_title {
+  border: 1px #707070 solid;
+  color: #707070;
+  border-radius: 10px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.box_title1 {
+  color: #707070;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 16px;
+  font-size: 12px;
+}
+.fee {
+  font-family: "DIN Condensed", sans-serif;
+  font-size: 32px;
+  color: #ff5a27;
+}
+.fee2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ff5a27;
+}
+.fee3 {
+  font-family: "Hiragino Sans", "ヒラギノ角ゴシック",
+    "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3";
+  font-size: 14px;
+  margin: 0px 3px 0px 8px;
+}
+
+.right {
+  width: 880px;
+  margin-left: 40px;
+  display: flex;
+}
+.cont_left {
+  width: 560px;
+  margin-left: 24px;
+  /* height: 515px; */
+}
+.cont_right {
+  width: 296px;
+}
+.cont_right2 {
+  display: flex;
+  margin: 0px 24px;
+}
+.cont:hover {
+  border: #1d90d8 3px solid;
+}
+.cont:hover .cont_tit {
+  color: #1d90d8;
+}
+/* @import url("https://fonts.googleapis.com/css?family=Lato"); */
+
+.left_cont_radio ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.left_cont_radio ul li {
+  color: #707070;
+  display: block;
+  position: relative;
+  float: left;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+ul li input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+ul li label {
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 0px 0px 0px 30px;
+  /* margin: 10px auto; */
+  height: 25px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+ul li .check {
+  display: block;
+  position: absolute;
+  border: 2px solid #aaaaaa;
+  border-radius: 100%;
+  height: 16px;
+  width: 16px;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  transition: border 0.25s linear;
+  -webkit-transition: border 0.25s linear;
+}
+
+/* ul li:hover .check {
+  border: 5px solid #ffffff;
+} */
+
+ul li .check::before {
+  display: block;
+  position: absolute;
+  content: "";
+  border-radius: 100%;
+  height: 12px;
+  width: 12px;
+  top: 2.45px;
+  left: 2.3px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+input[type="radio"]:checked ~ .check {
+  border: 2px solid #60c3ff;
+}
+
+input[type="radio"]:checked ~ .check::before {
+  background: #60c3ff;
+}
+
+input[type="radio"]:checked ~ label {
+  color: #60c3ff;
+}
+
+/* .alert {
+  box-sizing: border-box;
+  background-color: #bdffe1;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  padding: 20px 40px;
+  color: #333;
+}
+
+.alert h2 {
+  font-size: 22px;
+  color: #232323;
+  margin-top: 0;
+}
+
+.alert p {
+  line-height: 1.6em;
+  font-size: 18px;
+}
+
+.alert a {
+  color: #232323;
+  font-weight: bold;
+} */
+.gyoukai_bt {
+  margin-top: 12px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 4px;
+  color: #60c3ff;
+  background-color: #f8f9fa;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  transition: ease-in background-color 0.2s;
+  line-height: inherit;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gyoukai_bt:hover {
+  background-color: #eeeeee;
+}
+.gyoukai_bt:focus {
+  outline: 0;
+}
+.gyoukai_bt2 {
+  margin-top: 12px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 4px;
+  color: #60c3ff;
+  background-color: #f8f9fa;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  transition: ease-in background-color 0.2s;
+  line-height: inherit;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gyoukai_bt2:hover {
+  background-color: #eeeeee;
+}
+.gyoukai_bt2:focus {
+  outline: 0;
+}
+footer {
+  background-color: #0f4566;
+  padding: 64px 0;
+}
+
+.ft_main {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.ft_menu_inner {
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+}
+.ft_menu_tit {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+.ft_link {
+  font-size: 14px;
+  color: #fff;
+}
+.ft_li {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.ft_right {
+  text-align: right;
+}
+.ft_right_link {
+  width: 285px;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.ft_bt {
+  width: 980px;
+  margin: 0 auto;
+}
+.ft_right_link {
+  font-size: 14px;
+  font-weight: 600;
+  /* margin: 0; */
+  padding: auto 0;
+}
+.ft_right_link_inner {
+  margin: auto 0;
+}
+.comp_arrow {
+  margin-left: 10px;
+}
+.ft_rg {
+  height: 40px;
+}

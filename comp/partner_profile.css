@@ -1,0 +1,273 @@
+/* グローバル */
+html {
+  /* font-family: "Noto Sans JP", sans-serif; */
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+  min-width: 1200px;
+}
+body {
+  margin: 0px;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 100;
+}
+h2 {
+  color: #292828;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 20px;
+}
+h3 {
+  line-height: 1.5;
+  color: #9da0a4;
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  /* word-wrap: break-word; */
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+li {
+  margin: 0px 10px;
+  color: #707070;
+}
+li:hover {
+  color: #60c3ff;
+}
+main {
+  margin: 0;
+  background-color: #f0f0f0;
+  display: flex;
+}
+p {
+  font-size: 16px;
+}
+
+/* ヘッダー */
+header {
+  height: 60px;
+  background-color: #323232;
+}
+.tab li a {
+  color: white;
+}
+.buil_rg {
+  font-size: 1.6em;
+  /* /* margin: 10px; */
+  margin-right: 26px;
+}
+
+/* パンくずリスト */
+.bread {
+  font-size: 16px;
+}
+.bread a {
+  text-decoration: none;
+  color: white;
+}
+.bread li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+.bread li::after {
+  content: " >";
+  color: white;
+  font-size: 14px;
+  margin: 0px 10px;
+}
+.bread li:last-child::after {
+  content: none;
+}
+
+/* 左ナビゲーション */
+.left_nav {
+  width: 240px;
+  background-color: white;
+  box-shadow: 0 0 3px grey;
+  padding-top: 24px;
+  min-height: 750px;
+}
+.left_nav_list li {
+  margin: 0;
+}
+.nav_list_inner {
+  color: #707070;
+  padding: 0 24px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  transition: background 0.3s ease-in-out;
+  /* transition: color 0.3s ease-in-out; */
+}
+.nav_list_inner:hover {
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
+.sel {
+  background-color: rgb(236, 236, 236);
+  color: #1d90d8;
+}
+
+/* プロフィール */
+.middle {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 1400px; */
+  margin: 60px auto;
+  margin-bottom: 120px;
+}
+/* 上部 */
+.mid_top {
+  width: 863px;
+  border-bottom: #1d90d8 1px solid;
+  /* margin-bottom: 20px; */
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 100;
+}
+.mid_top span {
+  font-size: 12px;
+  color: #707070;
+  padding-left: 10px;
+  font-weight: 100;
+}
+
+.mid_mid {
+  width: 880px;
+  display: flex;
+  background-color: white;
+  width: inherit;
+  padding-bottom: 40px;
+}
+.mid_mid h3 {
+  font-size: 16px;
+  color: black;
+}
+
+/* ひだり */
+.mid_left {
+  flex-grow: 1;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+.mid_left_top {
+  text-align: center;
+}
+.mid_left_top img {
+  height: 180px;
+  width: 180px;
+  border-radius: 90px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+.mid_left_mid {
+  padding-left: 20px;
+}
+.mid_left_mid i {
+  margin-right: 20px;
+}
+.mid_left_mid p {
+  vertical-align: middle;
+  color: #707070;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.border {
+  border-bottom: #f0f0f0 1px solid;
+}
+
+/* 右 */
+.mid_right {
+  flex-grow: 6;
+  padding-left: 40px;
+}
+.mid_right h2 {
+  margin: 32px 0;
+  font-weight: 100;
+  color: #1d90d8;
+}
+.mid_right_cont {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  display: flex;
+}
+.mid_right_cont h3 {
+  color: #707070;
+  margin: 0;
+  width: 90px;
+  max-width: 90px;
+
+  overflow-wrap: normal;
+}
+.mid_right_cont p {
+  font-size: 18px;
+  margin: 0;
+  margin-left: 10px;
+  max-width: 420px;
+  overflow-wrap: normal;
+}
+/* 所属 */
+.syozoku {
+  margin-bottom: 28px;
+}
+
+/* フッター */
+footer {
+  background-color: #0f4566;
+}
+.ft_left {
+  display: flex;
+  align-items: center;
+}
+.ft_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.ft_main ul {
+  display: flex;
+  align-items: center;
+}
+.ft_link {
+  font-size: 14px;
+  color: #fff;
+}
+.ft_li {
+  margin: 0 20px;
+}
+.ft_right_link {
+  width: 200px;
+  height: 40px;
+  margin: 0 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+.ft_right_link {
+  font-size: 14px;
+  font-weight: 600;
+  /* margin: 0; */
+  padding: auto 0;
+}
+.ft_right_link_inner {
+  margin: auto 0;
+}
+.comp_arrow {
+  margin-left: 10px;
+}
+.ft_rg {
+  height: 40px;
+}

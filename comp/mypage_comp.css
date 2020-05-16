@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  /* font-family: "Noto Sans JP", sans-serif; */
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+}
+header {
+  border-bottom: #59b1eb 2px solid;
+}
+h1 {
+  font-size: 30px;
+}
+.name {
+  border-bottom: #59b1eb 5px solid;
+  margin-top: 40px;
+  font-weight: 500;
+}
+li {
+  color: #707070;
+  font-size: 22px;
+  margin-top: 42px;
+  border-bottom: #59b1eb 1px solid;
+}
+li:hover {
+  color: #60c3ff;
+}
+.name_tag {
+  background-color: #9ed9fd;
+  padding: 10px 0px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.left_menu {
+  width: 200vw;
+}
+.cont {
+  /* height: 480px; */
+  width: calc(50% - 30px);
+  /* background-color: red; */
+  margin: 20px;
+  margin-right: 70px;
+  border-top: #c6c6c6 2px solid;
+  border-bottom: #c6c6c6 2px solid;
+  border-radius: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cent {
+  display: flex;
+  width: 100%;
+  margin-left: 70px;
+}
+.cont_img {
+  width: 100%;
+  height: 12vw;
+  border: black 1px solid;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.box {
+  border: #707070 1px dashed;
+  width: 100%;
+  justify-content: space-between;
+}
+.box_title {
+  border: 1px #707070 solid;
+  color: #707070;
+  border-radius: 10px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.fee {
+  font-family: "DIN Condensed", sans-serif;
+  font-size: 30px;
+  color: #ff5a27;
+}

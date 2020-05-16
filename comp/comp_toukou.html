@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mypage_comp2.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div style="display: flex;width:78vw;margin: 0 auto;">
+        <a href="/"
+          ><img src="pict/rogo_white.png" alt="" style="height: 100px; "
+        /></a>
+        <!-- <ul class="tab" style="display: flex;">
+          <li class="tab1" type="none">案件の一覧</li>
+          <li class="tab2" type="none">お気に入り</li>
+          <li class="tab3" type="none">閲覧履歴</li>
+          <li class="tab3" type="none">案件ランキング</li>
+          <li class="tab3" type="none">パートナーランキング</li>
+        </ul> -->
+        <!-- <ul class="tab" style="display: flex; margin:auto 0 auto auto">
+          <li type="none"><i class="far fa-comment-dots  chat_rg"></i></li>
+          <li type="none">
+            <i class="fab fa-creative-commons-by  man_rg"></i>
+          </li>
+        </ul> -->
+      </div>
+    </header>
+    <main>
+      <div style="display: flex;margin-left: 12vw;">
+        <div class="left_menu">
+          <h1 class="name">法人さまマイページ</h1>
+          <p class="name_tag">
+            <span style="margin-right: 10px;">Seluse株式会社</span>さま
+          </p>
+          <div>
+            <ul
+              class="tab"
+              style="display: flex; flex-direction: column;padding-left: 0;"
+            >
+              <li class="tab1" type="none">
+                投稿済み案件<span style="float: right;"
+                  ><i class="fas fa-arrow-circle-right"></i
+                ></span>
+              </li>
+              <li class="tab2" type="none" style="color: #60c3ff;">
+                新規投稿<span style="float: right;"
+                  ><i class="fas fa-arrow-circle-right"></i
+                ></span>
+              </li>
+              <li class="tab3" type="none">
+                メッセージ<span style="float: right;"
+                  ><i class="fas fa-arrow-circle-right"></i
+                ></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="right"
+          style=" width: 80%;background-color: #f3f0f0;padding-left: 8vw;margin-left: 5px;padding-top: 32px;padding-bottom: 90px;"
+        >
+          <h1>新規投稿</h1>
+          <form action="" method="post" style="padding-left: 30px;">
+            <div class="form1 fo">
+              <div class="tit">サービス・商品名</div>
+              <div class="form"><input type="text" /></div>
+            </div>
+                        <div class="form1 fo">
+                          <div class="tit">イメージ画像</div>
+                          <div class="form"><input type="file" style="width:34%"/></div>
+                        </div>
+
+            <div class="form2 fo">
+              <div class="tit">掲載タイトル</div>
+              <div class="form">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="3"
+                  placeholder="例）顧客管理ツールを販売してください。&#13;&#10;例）お知り合いを紹介してください。"
+                ></textarea>
+              </div>
+            </div>
+            <div class="form3 fo">
+              <div class="tit">ひとこと紹介</div>
+              <div class="form">
+                <textarea name="" id="" cols="30" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form4 fo">
+              <div class="tit">報酬</div>
+              <div class="form">
+                <input type="text" data-type="number" style="width: 30%;" />円
+              </div>
+            </div>
+            <div class="form5 fo">
+              <div class="tit">募集人数</div>
+              <div class="form">
+                <input type="text" data-type="number" style="width: 30%;" />人
+              </div>
+            </div>
+            <div class="form5 fo">
+              <div class="tit">掲載期間に課金制</div>
+            </div>
+            <div class="form6 fo">
+              <div class="tit">サービス概要</div>
+              <div class="form">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+              </div>
+            </div>
+            <div class="form7 fo">
+              <div class="tit">サービスのメリット(3つ)</div>
+              <div class="form">
+                <textarea name="" id="" cols="30" rows="3"></textarea>
+                <textarea name="" id="" cols="30" rows="3"></textarea>
+                <textarea name="" id="" cols="30" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form7 fo">
+              <div class="tit">報酬詳細</div>
+              <div class="form">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="5"
+                  placeholder="例）・アポイントを取り次いでいただいた場合、10000円をお渡しいたします。&#13;&#10;　　・ご紹介いただいたお客様が商品を購入された場合、販売価格の10%をお渡しい&#13;&#10;　　　たします。（最低50000円）"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="form8 fo">
+              <div class="tit">支払い条件</div>
+              <div class="form">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="5"
+                  placeholder="例）お客様が料金を支払った時点でお渡しいたします。"
+                ></textarea>
+              </div>
+            </div>
+            <div class="form6 fo">
+              <div class="tit">有効アプローチ先</div>
+              <div class="form">
+                <div>
+                  業種<input
+                    type="text"
+                    placeholder="食品、小売、飲食"
+                    style="margin-left: 4px;"
+                  />
+                </div>
+                <div>
+                  役職<input
+                    type="text"
+                    placeholder="代表、経理"
+                    style="margin-left: 4px;margin-top: 6px;"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form1 fo">
+              <div class="tit">対象エリア</div>
+              <div class="form"><input type="text" /></div>
+            </div>
+            <div class="form6 fo">
+              <div class="tit">その他</div>
+              <div class="form">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+              </div>
+            </div>
+            <div class="button-panel" style="text-align: center;">
+              <input type="submit" class="button" title="Sign In" value="GO"></input>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      /* テキストボックスを取得 */
+      var NBR = document.querySelectorAll("[data-type='number']");
+      /* イベント操作 */
+      for (var i = 0; i < NBR.length; i++) {
+        NBR[i].oninput = fmtInput;
+      }
+
+      /* 入力時に実行する処理 */
+      function fmtInput(evt) {
+        var target = evt.target;
+        var data = target.value[target.value.length - 1];
+        if (!data.match(/[0-9]/)) {
+          target.value = target.value.slice(0, target.value.length - 1);
+        }
+        target.value = target.value
+          .replace(/,/g, "")
+          .replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+      }
+    </script>
+  </body>
+</html>
