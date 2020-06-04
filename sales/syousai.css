@@ -97,7 +97,7 @@ h3 {
   margin: 0px;
 
   text-align: right;
-  /* padding-right: 96px; */
+  padding-right: 76px;
 }
 
 .hoso2 {
@@ -432,6 +432,7 @@ footer {
   font-size: 16px;
   line-height: 52px;
   color: white;
+  border: none;
 }
 .modal_bt1:hover {
   background-color: #4a94c2;

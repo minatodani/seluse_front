@@ -56,6 +56,9 @@ p {
 i {
   margin-right: 10px;
 }
+.button {
+  border: none;
+}
 .border {
   border-bottom: #59b1eb 1px solid;
 }

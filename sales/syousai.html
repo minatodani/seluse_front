@@ -99,7 +99,7 @@
             <p class="mid_lef_tex">お客様の業務効率を改善します。膨大な事務処理を一手に担う管理ツール[sales
             v]です。従来製品とは違い、直感的に入力ができます。わかりやすいシステム設計で誰でも扱うことができます。
             </p>
-            <p class="mid_lef1_bt">*詳細はチャットにてお伝えします。</p>
+            <p class="mid_lef1_bt">*詳細はメールにてお伝えします。</p>
 
           </div>
           <div class="middle_main_left2">
@@ -181,7 +181,7 @@
           </h5>
           <p style="border-bottom: #eff1f3 0.5px solid; margin-top: 22px;"></p>
 
-          <p class="middle_tit_tp_right" >企業担当者とチャットができます。</p>
+          <p class="middle_tit_tp_right" >企業担当者に連絡先が送信されます。</p>
 
           <div class="main_bt_bt">
            <div class="fav">
@@ -279,9 +279,10 @@
       <div class="modal__bg1 js-modal-close1"></div>
       <div class="modal__content">
         <p>申請しました。</p>
+        <p>企業担当者からの連絡をお待ちください。</p>
         <div style="display: flex;margin-top: 20px;">
             <div class="modal_bt_wrap" style="margin-right: 20px;">
-              <button class="modal_bt1">マイページへ</button>
+              <button class="modal_bt1  seni">マイページへ</button>
             </div>
             <div class="modal_bt_wrap">
               <button class="fav_bt js-modal-close1 modal_bt2">キャンセル</button>
@@ -314,6 +315,10 @@
 
         return false;
       });
+
+      $(".seni").on("click",function(){
+        window.location.href="./sales_profile.html"
+      })
 
       });</script>
      
